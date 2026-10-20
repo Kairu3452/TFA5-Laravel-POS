@@ -5,8 +5,8 @@ Kyle Pingol · TC31 · Dr. Roman Villones
 
 A rebuild of the TFA1 Point of Sale (POS) application in **Laravel 12**. It has four pages. The two account pages read from a **static PHP array** as a temporary data source.
 
-- **Live site:** __LIVE_URL__
-- **Repository:** __REPO_URL__
+- **Live site:** https://tfa5-laravel-pos-production.up.railway.app
+- **Repository:** https://github.com/Kairu3452/TFA5-Laravel-POS
 
 | Page | URL | Route name | Controller method | Blade view |
 |---|---|---|---|---|
@@ -105,7 +105,7 @@ tests/Feature/
 ## Setup and run locally
 
 ```bash
-git clone __REPO_URL__.git
+git clone https://github.com/Kairu3452/TFA5-Laravel-POS.git
 cd TFA5-Laravel-POS
 
 composer install
@@ -176,7 +176,7 @@ APP_NAME="TFA5 POS"
 APP_ENV=production
 APP_DEBUG=false
 APP_KEY=base64:...            # generated with php artisan key:generate --show
-APP_URL=__LIVE_URL__
+APP_URL=https://tfa5-laravel-pos-production.up.railway.app
 LOG_CHANNEL=stderr
 DB_CONNECTION=sqlite
 SESSION_DRIVER=file
