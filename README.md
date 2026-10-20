@@ -131,7 +131,11 @@ php artisan migrate --seed    # answer "yes" if it offers to create the tfa5_pos
 
 Either way you get the `customers` and `users` tables with the same 6 records each that the pages show. All seeded accounts use the demo password `password`.
 
+![phpMyAdmin tables in tfa5_pos](docs/screenshots/phpmyadmin-tables.png)
+
 ![phpMyAdmin customers table](docs/screenshots/phpmyadmin-customers.png)
+
+![phpMyAdmin users table](docs/screenshots/phpmyadmin-users.png)
 
 ---
 

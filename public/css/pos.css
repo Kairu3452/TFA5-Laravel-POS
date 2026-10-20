@@ -477,7 +477,7 @@ h1, h2, h3 { line-height: 1.2; margin: 0; letter-spacing: -.01em; }
 }
 
 @media (max-width: 640px) {
-    .container { padding: 0 16px; }
+    .container { padding-left: 16px; padding-right: 16px; }
     .topbar { position: static; }
     .topbar-inner { padding-top: 10px; padding-bottom: 10px; }
     .nav { width: 100%; }
